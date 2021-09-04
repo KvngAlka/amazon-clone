@@ -1,0 +1,80 @@
+.products{
+    display: grid;
+    height: 500px;
+    grid-template-columns: max-content 1fr;
+    padding: 10px;
+    
+}
+.products__sidebar{
+    border-right: 0.01px solid rgb(221, 221, 221);
+    padding: 10px ;
+    box-sizing: border-box;
+    padding-right: 30px;
+}
+.sidebar__title{
+    font-size: 18px;
+    color: rgb(161, 161, 161);
+    font-weight: 500;
+}
+.sidebar__subTitle{
+    margin-top: 20px;
+}
+.products__sidebar > h5:not([class = "sidebar__subTitle"]){
+    margin-left: 15px;
+    color: rgb(124, 123, 123);
+    font-weight: 600;
+    margin-top: 5px;
+}
+.products__right{
+    padding: 0 5px;
+}
+.right__top{
+    padding-bottom: 30px;
+    border-bottom: 0.01px solid rgb(221, 221, 221);
+}
+.products__body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.product__card{
+    padding: 10px;
+    min-width: 350px;
+    max-width: 400px;
+    flex: 1;
+   margin-bottom: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+}
+
+.product__card > .title{
+    color: rgb(22, 116, 170);
+}
+
+.product__img__box{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    min-width: inherit;
+    max-width: 400px;
+    object-fit: contain;
+}
+.product__img__box > img{
+    height: 100%;
+    max-width: 100%;
+}
+.star__rating{
+    color: rgb(219, 153, 29) !important;
+}
+.product__card > button{
+    padding: 5px 20px;
+    background-color: rgb(223, 137, 39);
+    outline: none;
+    border: 0.01px solid rgb(141, 141, 141);
+    min-width: 350px;
+    max-width: 400px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}

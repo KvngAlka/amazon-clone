@@ -1,0 +1,190 @@
+.carts{
+    display: grid;
+    width: 100%;
+    min-height: 500px;
+    grid-template-columns: 1fr 350px;
+    column-gap: 20px;
+    background-color: rgb(233, 233, 233);
+}
+
+.cart__left{
+    margin: 20px;
+    margin-right: 0px;
+    background-color: white;
+    height: fit-content;
+    padding: 20px 10px;
+}
+.cart__left h4{
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.cart__left p {
+    font-weight: 500;
+    font-size: small;
+    margin-top: 5px;
+}
+
+.cart__right{
+    margin: 20px;
+    margin-left: 0px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.cart__right > h4{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
+}
+
+.ebook__card{
+    display: flex;
+    padding: 10px;
+}
+
+.eBook__img{
+    width: 80px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 10px;
+    background-color: rgb(216, 216, 216);
+}
+.eBook__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ebook__card__right h4{
+    font-weight: 500;
+    color: rgb(56, 111, 175);
+}
+.ebook__card__right h4:nth-child(5){
+    color: rgb(214, 55, 55);
+}
+.ebook__card__right h5{
+    font-weight: 500;
+    font-size: small;
+}
+.ebook__card__right > h5:nth-child(2){
+    color: rgb(56, 111, 175);
+}
+.ebook__card__right > h5:nth-child(4){
+    color: gray;
+}
+.star__rating{
+    color: rgb(219, 153, 29) !important;
+}
+.ebook__card__right p{
+    display: flex;
+    align-items: center;
+    color: rgb(56, 111, 175);
+}
+.ebook__card__right button{
+    background-color: rgb(238, 238, 238);
+    border-width: 0.01px;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+
+
+.shopping__cart__title{
+    font-weight: 500;
+}
+.shopping__cart .subtitle{
+    color: rgb(17, 99, 146);
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.cart__tile{
+    display: flex;
+    width: 100%;
+    min-height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.cart__tile .img__box{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    object-fit: contain;
+}
+.img__box > img{
+    height: 100%;
+    width: 100%;
+}
+.cart__tile__right{
+    flex: 1;
+}
+.cart__title{
+    color: rgb(17, 99, 146);
+    font-weight: 600;
+}
+
+.ranks{
+    font-weight: 500;
+    color: rgb(146, 146, 146);
+    margin-top: 10px;
+}
+.ranks > span{
+    background-color: rgb(230, 107, 36);
+    color: white;
+    padding: 2px 5px;
+}
+
+.stock{
+    font-weight: 500;
+    margin: 5px 0;
+    color: rgb(17, 99, 146);
+}
+
+.del__cart{
+    font-weight: 500;
+    font-size: smaller;
+    color: rgb(17, 99, 146);
+    padding: 0 10px;
+    width: fit-content;
+    border-right: 0.01px solid rgb(182, 182, 182);
+    border-left: 0.01px solid rgb(182, 182, 182);
+    cursor: pointer;
+}
+
+.total__price{
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-bottom: 0.01px solid rgb(230, 230, 230);
+}
+.total__price > h4{
+font-weight: 500;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.check > input{
+    margin-right: 5px;
+}
+.total__price > button{
+    width: 100%;
+    padding: 5px 0;
+    outline: none;
+    background-color: rgb(235, 181, 65);
+    border-radius: 3px;
+    border: 0.1px solid rgb(241, 134, 34);
+    font-weight: 600;
+    color: rgb(51, 51, 51) !important;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+.link{
+    text-decoration: none;
+    color: rgb(51, 51, 51)
+}

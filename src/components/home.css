@@ -1,0 +1,92 @@
+.home{
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    display: grid;
+    grid-template-rows: 250px 1fr;
+    min-height: 300px;
+}
+
+.large__image{
+    margin-bottom: -200px;
+    width: inherit;
+    overflow: hidden;
+    object-fit: contain;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.large__image img{
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) , rgba(0,0,0,0));
+    
+}
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+
+.categories__card,.first__card{
+    min-width: 250px;
+    min-height: 300px;
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column
+}
+
+.category__img
+/* .recommendations */
+{
+    flex: 1;
+    object-fit: cover;
+    background-color: rgb(221, 221, 221);
+    margin: 10px 0;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+}
+.categories__card{
+    /* max-width: 400px; */
+    max-height: 500px;
+}
+.category__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.categories__card > .p{
+    color: rgb(22, 116, 170) !important;
+    font-size: small !important;
+    text-decoration: none;
+}
+
+.first__card .card__top{
+    display: flex;
+}
+
+.card__top h4{
+    margin-left: 10px;
+}
+.first__card h6{
+    margin-top: 10px;
+}
+
+.recommendations{
+    background-color: transparent;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+.recommendations div{
+    background-color: rgb(219, 141, 141);
+    
+}

@@ -1,0 +1,7 @@
+.app{
+    position: relative;
+    display: grid;
+    grid-template-rows: minmax(740,1fr);
+    min-width: 740px;
+    object-fit: cover;
+}
